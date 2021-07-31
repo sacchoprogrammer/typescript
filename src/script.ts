@@ -1,18 +1,13 @@
-let a:any // anything can define
+let myFuction: Function;
 
-a = 100; // number value assign 
-a = "Money"; // string value assign
+myFuction = () => {
+console.log("Hello");
+};
 
-
-let ab:any[] = [];
-
-ab.push("Yes");
-ab.push("No");
-
-let country:{
-    name: any,
-    capital:any
+// In function a b c paremeter c default value set 
+const myFun = (a:string, b:string, c: string = 'Default Test') => {
+console.log(c);
+console.log(`Hello ${a} ${b}`)
 }
 
-console.log(country = {name:'Bangladesh',capital:'Dhaka'});
-
+myFun("A", "B", "C");

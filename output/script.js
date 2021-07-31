@@ -1,9 +1,12 @@
 "use strict";
-var a; // anything can define
-a = 100; // number value assign 
-a = "Money"; // string value assign
-var ab = [];
-ab.push("Yes");
-ab.push("No");
-var country;
-console.log(country = { name: 'Bangladesh', capital: 'Dhaka' });
+var myFuction;
+myFuction = function () {
+    console.log("Hello");
+};
+// In function a b c paremeter c default value set 
+var myFun = function (a, b, c) {
+    if (c === void 0) { c = 'Default Test'; }
+    console.log(c);
+    console.log("Hello " + a + " " + b);
+};
+myFun("A", "B", "C");
