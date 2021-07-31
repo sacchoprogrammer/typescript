@@ -1,31 +1,27 @@
-// declare string variable player name
-let playerName = "Masrafi";
-playerName = "Asrafull";
-playerName = "Sakib"
+// Explicit variable declare for string
+let a:string;
+a = 'anything'
 
-// Type 'number' is not assignable to type 'string'
-// playerName = 123
+// Explicit variable declare for number
+let b: number;
+b = 1234
 
-// Type 'stirng' in function paramiter
-function getPlayer(playerOne:string, playerTwo:string) {
-    return playerName + playerTwo;
+// null string and number array
+let ab: (string | number)[] = [];
+// value assign
+
+ab.push("hello"); // string value assign
+ab.push("Bangladesh"); // string value assign
+ab.push(2021); // number value assign
+
+console.log(ab); // print this Array
+
+// person object with define schema
+let person: {
+ name: string
+ age:number
+ adult:true
 }
 
-// let playerList: string[] array
-let playerList = ["Masrafi", "Asarafull", "Sakib", "Rafiq", "Mostafiz"];
-
-// let playerInfo object declare
-let playerInfo = {
-    name: 'Masrafi Bin Mortuza',
-    age:36,
-    dateOfBirth:1985,
-    isCaptain: true
-}
-
-// playerInfo.name string type
-// playerInfo.age number type
-// playerInfo.dateOfBirth number type
-
-console.log(playerList.push("Bijoy"));
-console.log(getPlayer(" Rafiq "," Mostafiz "));
-console.log(playerName);
+console.log(person = { name:'shanto', age:26, adult:true});
+let listOfNumber = ['1','2','3','4','5']
