@@ -1,2 +1,2 @@
-# typescript easy solution for large scale project
+# typescript Explicit And Union Type
 typescript all resources
