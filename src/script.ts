@@ -1,31 +1,18 @@
-// declare string variable player name
-let playerName = "Masrafi";
-playerName = "Asrafull";
-playerName = "Sakib"
+let a:any // anything can define
 
-// Type 'number' is not assignable to type 'string'
-// playerName = 123
+a = 100; // number value assign 
+a = "Money"; // string value assign
 
-// Type 'stirng' in function paramiter
-function getPlayer(playerOne:string, playerTwo:string) {
-    return playerName + playerTwo;
+
+let ab:any[] = [];
+
+ab.push("Yes");
+ab.push("No");
+
+let country:{
+    name: any,
+    capital:any
 }
 
-// let playerList: string[] array
-let playerList = ["Masrafi", "Asarafull", "Sakib", "Rafiq", "Mostafiz"];
+console.log(country = {name:'Bangladesh',capital:'Dhaka'});
 
-// let playerInfo object declare
-let playerInfo = {
-    name: 'Masrafi Bin Mortuza',
-    age:36,
-    dateOfBirth:1985,
-    isCaptain: true
-}
-
-// playerInfo.name string type
-// playerInfo.age number type
-// playerInfo.dateOfBirth number type
-
-console.log(playerList.push("Bijoy"));
-console.log(getPlayer(" Rafiq "," Mostafiz "));
-console.log(playerName);

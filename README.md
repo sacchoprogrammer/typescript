@@ -1,2 +1,2 @@
-# typescript easy solution for large scale project
+# Typescript Dynamic type
 typescript all resources
